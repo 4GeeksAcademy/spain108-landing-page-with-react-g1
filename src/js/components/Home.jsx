@@ -1,14 +1,19 @@
-import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-import { Jumbotron } from "./Jumbotron.jsx";
 
-//create your first component
+// 6.- Importamos nuestros componentes 
+import { Jumbotron } from "./Jumbotron.jsx";
+import { Navbar } from "./Navbar.jsx";
+
+
 const Home = () => {
+
 	return (
-		<Jumbotron title="Hola!" />
+		<>
+			<Navbar />
+			<Jumbotron title="Hola!" />
+		</>
 	)
 };
 
-export default Home;
+export default Home
