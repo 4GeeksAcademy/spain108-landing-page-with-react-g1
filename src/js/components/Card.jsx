@@ -21,6 +21,6 @@ export const Card = (props) => {
 Card.defaultProps = {
     imageUrl: "https://www.muycomputer.com/wp-content/uploads/2024/12/Firefox_como_navegador_por_defecto.jpg",
     title: "Card por defecto",
-    description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    description: "Esta card está hecho con default. También son default los botones de todas las cards.",
     button: "Find Out More!",
 }
