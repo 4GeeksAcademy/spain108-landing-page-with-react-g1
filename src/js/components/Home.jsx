@@ -1,12 +1,13 @@
 import { Navbar } from "./Navbar.jsx";
 import { Jumbotron } from "./Jumbotron.jsx";
 import { Card } from "./Card.jsx";
+import { Footer } from "./Footer.jsx";
 
 
 const Home = () => {
 
 	return (
-		<>
+		<div className="d-flex flex-column min-vh-100">
 			<Navbar />
 			<div className="container d-flex flex-wrap gap-4 justify-content-center align-content-center">
 				<Jumbotron />
@@ -15,7 +16,8 @@ const Home = () => {
 				<Card imageUrl="https://about.puma.com/sites/default/files/styles/dd_hero_tablet/public/media/news/images/puma-hyrox-4.png?itok=XVRhr1ur" title="Espuma" description="Rebeldía con estilo. Rendimiento que grita en las calles. Tus zapatos, tu revolución personal." />
 				<Card />
 			</div>
-		</>
+			<Footer/>
+		</div>
 	)
 };
 
